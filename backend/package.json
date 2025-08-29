@@ -1,0 +1,40 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A Node.js and GraphQL backend for an online doctor consultation app, providing secure patient booking, and video consultation APIs with real-time updates and role-based access control.",
+  "keywords": [
+    "nodejs",
+    "graphql",
+    "backend",
+    "doctor",
+    "consultation",
+    "healthcare",
+    "telemedicine",
+    "appointments",
+    "video-call",
+    "api"
+  ],
+  "license": "MIT",
+  "author": "Santosh Kumar Kar 2002santoshkar@gmail.com",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@apollo/server": "^5.0.0",
+    "@as-integrations/express5": "^1.1.2",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "graphql": "^16.11.0",
+    "graphql-tag": "^2.12.6",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
